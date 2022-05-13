@@ -32,7 +32,7 @@ let consolebtn = document.createElement("div")
 consolebtn.id = "consolebtn"
 mainframe.appendChild(logo)
 mainframe.id = "mainframe"
-let proxyDomain = "/https://mikesproxy.herokuapp.com/main/"
+let proxyDomain = "/https://aly.unblockhype.repl.co/?url="
 // ignore this long part
 // appending all elements
 mainframe.id = "main"
@@ -62,7 +62,7 @@ title.textContent = "CrownJS"
 author.textContent = "A collection of exploits by jango#5518"
 btn1.textContent = "History Flooder"
 btn2.textContent = "Tab Cloak"
-btn3.textContent = "Proxy Browser"
+btn3.textContent = "Proxy"
 btn4.textContent = "Themes"
 anime.textContent = "Watch Anime"
 consolebtn.textContent = "Open Console"
@@ -323,7 +323,7 @@ document.addEventListener("keyup", function (e) {
 });
 
 anime.onclick = () => {
-  proxyDomain = "https://mikesproxy.herokuapp.com/main/"; var code1 = "<iframe src="; var code2 = " width=100% height=100%>"
+  proxyDomain = "/https://aly.unblockhype.repl.co/?url="; var code1 = "<iframe src="; var code2 = " width=100% height=100%>"
   var url = "gogoanime2.org"
   var codeIP1 = code1.concat(proxyDomain);
   codeIP2 = codeIP1.concat(url); var codeIP3 = codeIP2.concat(code2); document.write(codeIP3);
@@ -434,7 +434,7 @@ z-index: 999999 !important;
         output.textContent = "Added custom theme to page"
       }
       else if (console.value == "crwn proxify site") {
-        let proxify = prompt("Enter site URL"); var proxyDomain = "https://mikesproxy.herokuapp.com/main/";
+        let proxify = prompt("Enter site URL"); var proxyDomain = "https://aly.unblockhype.repl.co/?url=";
         var code2 = " width=100% height=100%>"; var codeIP1 = code1.concat(proxyDomain); var codeIP2 = codeIP1.concat(proxify); var codeIP3 = codeIP2.concat(code2); document.write(codeIP3);
 
       }
