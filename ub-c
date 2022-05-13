@@ -1,1 +1,1 @@
-javascript:window.open("https://aly.unblockhype.repl.co/?url=%22%20+%20window.location.href)
+window.open("https://aly.unblockhype.repl.co/?url=+window.location.href)
